@@ -1,0 +1,52 @@
+@import url(../../../../../css/teme/variables.css);
+
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary, app-input-add-item {
+  margin-top: 30px;
+  width: 100%;
+}
+
+main.container {
+  height: calc(100vh - 130px - 90px);
+  overflow-y: auto;
+  padding: 0 10px 0 10px;
+}
+main.container::-webkit-scrollbar {
+  width: 5px;
+}
+
+main.container::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+main.container::-webkit-scrollbar-thumb {
+  background: var(--primary-010);
+  border-radius: 5px;
+}
+
+
+footer {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px - solid var(--black-010);
+}
+
+

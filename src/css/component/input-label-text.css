@@ -1,0 +1,43 @@
+@import url(../teme/variables.css);
+
+.input-label-text {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  background: var(--black-010);
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.input-label-text input[type="text"] {
+  width: 85%;
+  border: none;
+  outline: 0;
+  background: none;
+  margin-left: 10px;
+  color: var(--white);
+}
+
+input [type="checkbox"] {
+  appearance: none;
+  background-color: var(--white); ;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--primary);
+}
+
+input[type="checkbox"] + input[type="text"] {
+margin: 0;
+}
+
+
+
